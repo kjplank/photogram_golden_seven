@@ -3,3 +3,7 @@
 <img src="<%= @photo.source %>"width=700>
 
 <p><%= @photo.caption %></p>
+
+<a href="http://localhost:3000/photos">Back</a>
+<a href="http://localhost:3000/photos/<%= @photo.id %>/edit">Edit</a>
+<a href="http://localhost:3000/delete_photo/<%= @photo.id %>">Delete</a>
